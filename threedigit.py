@@ -1,0 +1,6 @@
+a = int(input())
+b = str(a)
+print(b[-1])
+print(b[-2])
+print(b[0])
+print(int(a/2))
