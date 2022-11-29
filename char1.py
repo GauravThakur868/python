@@ -1,0 +1,5 @@
+a = input()
+print(ord(a))
+b = ord(a)
+c = chr(b)
+print(c)
