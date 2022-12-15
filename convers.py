@@ -1,0 +1,7 @@
+a = int(input("a: "))
+b = int(input("b: "))
+x = bin(a)
+y = oct(b)
+z = str(x)
+p = str(y)
+print(str(z[2:]) + "," +str(p[2:]))
