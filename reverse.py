@@ -4,4 +4,8 @@ def reverse(num):
     c = str(num)
     if b == c:
         print("palindrome")
-    else
+        return("palindrome")
+    else:
+        print("not palindrome")
+        return("not palindrome")
+reverse(num)
