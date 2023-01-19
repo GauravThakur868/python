@@ -1,4 +1,5 @@
 name = input("name: ")
 std = 8
 def data(name,std=8):
-    print()
+    print("",name,"",std)
+data(name,std)
