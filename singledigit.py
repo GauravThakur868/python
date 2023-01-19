@@ -3,3 +3,5 @@ b = int(input())
 c = int(input())
 d = int(input())
 e = int(input())
+def digit(*args):
+    x = ''
