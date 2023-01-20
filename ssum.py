@@ -8,3 +8,4 @@ def mysum(*args):
     for arg in args:
         x = x+arg
     return x
+print(mysum(a,b,c,d,e))
