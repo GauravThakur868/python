@@ -6,3 +6,5 @@ e = int(input())
 f = int(input())
 g = int(input())
 h = int(input())
+def mysum():
+    sumE= 0
