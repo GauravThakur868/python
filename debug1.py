@@ -15,5 +15,5 @@ def mysum(*args):
         else:
             sumO = sumO + i
     return(sumE**sumO)
-print()
-print()
+print(mysum(a,b,c,d,e,f,g))
+print(mysum(a,b,c,d,e,f))
