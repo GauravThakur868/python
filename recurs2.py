@@ -4,4 +4,6 @@ def fib(n):
         return n
     else:
         return fib(n-1) +fib(n-2)
+for i in range(n-1):
+    print(fib(i),end=' ')
         
