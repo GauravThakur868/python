@@ -1,4 +1,5 @@
 base = int(input())
 exp = int(input())
 def power(base,exp):
-    print()
+    print(base**(exp+1))
+power(base,exp)
