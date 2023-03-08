@@ -1,0 +1,7 @@
+a = list(map(int,input("list: ").split(",")))
+b = max(a)
+print(b**2)
+c = min(a)
+print(c**2)
+d = (b**2)-(c**2)
+print(abs(d))
