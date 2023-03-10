@@ -1,0 +1,5 @@
+a = input().split(",")
+a.sort()
+print(a)
+b = int(input())
+print(a[b-1])
