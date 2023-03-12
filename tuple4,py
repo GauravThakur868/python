@@ -1,0 +1,16 @@
+a = int(input())
+b = int(input())
+c = []
+if a > b:
+    print("invalid range")
+else:
+    for i in range(a,b+1):
+        flag = False
+        for j in range(2,i):
+            if i%j == 0:
+                flag=True
+        if flag == False:
+            c.append(i)
+    if c!=[]:
+        print(tuple(c))
+
