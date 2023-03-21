@@ -1,5 +1,5 @@
 k = input('keys: ').split(',')
-print(":values: ")
+print("values: ")
 d = {}
 l = []
 for i in k:

@@ -1,0 +1,12 @@
+data1 = input("data1: ")
+data2 = input("data2: ")
+list1 = data1.split(",")
+list2 = data2.split(",")
+dict1 = dict(zip(list1,list2))
+dict2 = dict(zip(list2,list1))
+print(dict1)
+print(dict2)
+dict3 = {}
+dict3.update(dict1)
+dict3.update(dict2)
+print(dict3)
